@@ -1,0 +1,67 @@
+I"~<p>This summer, I worked on</p>
+
+<p>###</p>
+
+<p>This summer, I worked with the CNCF - SMI community and Layer5 to develop a set of documentation and interactive tutorials to provide support and facilitate better understanding of the SMI project and service meshes, for both users and developers.</p>
+
+<h3 id="service-mesh">Service Mesh</h3>
+
+<h3 id="smi-project">SMI Project</h3>
+
+<p>The SMI project is an extensible set of API abstractions built with the intent of establishing a standard set of specifications to enable interoperability and cover the most widely used features of service meshes. originally developed by Microsoft and donated to CNCF in April, 2020.</p>
+
+<p>With a continuous influx of meshes in the <a href="">service mesh landscape</a>, each with its own set of APIs, the standards are ever-changing and thus difficult to surmise and check for, both by developers and users. The base problem arising here is a dearth of resources that provides you with accessible methods of inspecting your service mesh. This is where the SMI specification comes in. It defines an industry standard to compare your service mesh against and analyze its shortcomings.</p>
+
+<p>SMI currently supports 4 sets of APIs:</p>
+
+<ul>
+  <li>Traffic Specs  - Used to define traffic, currently only supports TCP, HTTP traffic.</li>
+  <li>Traffic Access Control - Used to specify whether a particular form of traffic is allowed or not</li>
+  <li>Traffic Split - Used to redirect/divide a request for a resource between 2 or more resources. Useful in canary testing</li>
+  <li>Traffic Metrics - Used to expose common traffic metrics like p99 in a specific format that can be utilized by a single dashboard for all the service meshes.</li>
+</ul>
+
+<h3 id="project">Project</h3>
+
+<p>The SMI specs have already been widely adopted but due to SMI being a relatively new project, it is largely devoid of both, user and dev documentation. My goal was to create comprehensive end-user documentation, including a complete set of User and Dev Guides, User Tutorials, and API documentation.</p>
+
+<p><a href="meshery.io">Meshery</a>, the service mesh management plane was chosen as the tool to showcase the SMI specifications because:</p>
+
+<ul>
+  <li>It supports upto 12 service meshes</li>
+  <li>Allows the application of custom configurations</li>
+  <li>Supports distributed load generation</li>
+  <li>Enables performance testing</li>
+</ul>
+
+<p>Being able to run performance tests with consistent load generation is a basic requirement for running SMI tests so that the tests can be easily integrated with the pipelines of all the popular service meshes.</p>
+
+<h3 id="community-bonding">Community Bonding</h3>
+
+<p>I took this time to understand the community and project goals better and established a regular channel of communication with my mentors. I also took this time to redefine my goals to stay in line with the specific aims of the SMI project and to maximize the reach and benefit to the end user. This was followed by setting a priority order for my finalized goals, after exhaustive discussions with my mentors.</p>
+
+<h3 id="development-phase">Development Phase</h3>
+
+<p>In the first phase, I started out with rewriting the User and Developer Documentation, following a  <a href="https://docs.google.com/document/d/1A3YYAMUTe06MojNWo8hdF4KZbvr-qVaaA2myzWeshHQ/edit?usp=drivesdk">draft structure</a> I had formulated for improving the Meshery documentation in the application phase.
+As I continued working on the coumentation, the structure was improved upon as needed to better focus on and explain the SMI specifications, and the final implementation followed this <a href="">structure</a>.</p>
+
+<p>The Meshery documentation site is built on Jekyll, a static site generator and runs in a Ruby environment.</p>
+
+<p><strong>Update the Documentation</strong>:</p>
+
+<p>I started out by rewriting the installation guides to improve readibility and user experience. I also ensured that the installation and working steps were up to date and efficient, and went along updating the documentation wherever necessary with inputs and reviews from the community. I also wrote a new quickstart guide with an easy-to-understand way of setting up the dev environment and running Meshery locally. This was highly needed to make the tool more accessible to new users.
+Post that, I moved to updating the user guides in an effort to explain Meshery’s various Performance testing features and also added Concept and Tutorial guides on a long list of topics, including but not limited to the SMI spec, conformance testing, load generation, lifecycle management, performance management, deploying sample applications, using metrics and more.</p>
+
+<p><strong>Improving User Experience</strong></p>
+
+<p>I also worked on adding features to the documentation site to improve the user experience and create a management system for a regular revisal of the documentation. These included adding a search feature and integrating a clipboard plugin. The site has been updated with a locally integrated internationlization feature and currently supports Spanish in addition to English. However, this still needs to be automated and improved upon to support more than one language. I will continue to work on this after my GSoD timeline is concluded to further add more support for internationalization and pagination features to the site.</p>
+
+<h3 id="work">Work</h3>
+
+<p>Meshery Documentation: User Guides</p>
+
+<p>Dev Interactive Tutorials:</p>
+
+<p><a href="https://www.katacoda.com/layer5">Katacoda</a> was chosen as the platform to make and host tutorials on working with service meshes and SMI testing. The tutorials are currently displayed on Katacoda itself and are publicly available.</p>
+
+:ET

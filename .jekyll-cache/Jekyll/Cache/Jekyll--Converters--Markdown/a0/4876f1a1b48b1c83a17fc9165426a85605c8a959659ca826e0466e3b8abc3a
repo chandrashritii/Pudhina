@@ -1,0 +1,33 @@
+I"A<div>
+
+
+<h4 class="post-teaser__month">
+<strong>
+ 
+general 
+
+</strong>
+</h4>
+<ul class="list-posts">
+
+<li class="post-teaser">
+<a href="/general/2016/05/20/welcome-to-jekyll.html">
+<span class="post-teaser__title">Welcome to Pudhina</span>
+<span class="post-teaser__date">20 May 2016</span>
+</a>
+</li>
+
+<li class="post-teaser">
+<a href="/general/2016/05/20/gsod-2020-with-cncf.html">
+<span class="post-teaser__title">GSoD 2020 with CNCF</span>
+<span class="post-teaser__date">20 May 2016</span>
+</a>
+</li>
+
+</ul>
+
+</div>
+
+<link rel="stylesheet" href="/assets/css/blog.css" />
+
+:ET

@@ -1,16 +1,15 @@
 # Site settings
-title: Pudhina
+title: Shriti Chandra
 description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
-
-baseurl: "/Pudhina" # the subpath of your site, e.g. /blog/
-url: "https://knhash.github.io" # the base hostname & protocol for your site
+    Shriti Chandra portfolio
+baseurl: ""
+url: "https://chandrashritii.github.io"
 
 author:
-  fullname: Pudhina
-  github: github
-  linkedin: linkedin
-  email: example@email.com
+  fullname: Shriti Chandra
+  github: chandrashritii
+  linkedin: shritichandra
+  email: shritichan@gmail.com
 
 
 # Syntax highlighting

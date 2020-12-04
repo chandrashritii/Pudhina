@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-subtitle: Select ramblings of Pudhina
+subtitle: Select ramblings
 ---
 
 <div>
@@ -10,7 +10,6 @@ subtitle: Select ramblings of Pudhina
 <h4 class="post-teaser__month">
 <strong>
 {% if category.name %} 
-- - - - -  {{ category.name }} - - - - - 
 {% else %} 
 {{ Print }} 
 {% endif %}
@@ -28,3 +27,5 @@ subtitle: Select ramblings of Pudhina
 </ul>
 {% endfor %}
 </div>
+
+<link rel="stylesheet" href="/assets/css/blog.css">

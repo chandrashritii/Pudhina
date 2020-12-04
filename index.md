@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Hello
-subtitle: My name is Pudhina
+title: About me
+subtitle: 
 sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/pudhina.jpg' | prepend: site.baseurl }}" id="about-img">
+<img src="{{ '/assets/img/shriti.jpeg' | prepend: site.baseurl }}" id="about-img" style="border-radius: 50%;">
 
 <div id="describe-text">
-	<p>A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability</p>
-	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
+	<p>Hi! I am Shriti Chandra, a sophomore at Manipal Institute of Technology, pursuing a Btech in Electronics and Communication Engineering.</p>
+	<p>Currently, I am a core team lead at the Developers Student Club, Manipal, working on developing an alert system using IoT sensors and Node-Red to assess environment conditions for trasportation systems. Over the past year, I have been working with Open Source organizations, contributing to their documentation and code. I am also an accepted Technical Writer, working with CNCF under the Google Season of Docs 2020 program.</p>
 </div>
