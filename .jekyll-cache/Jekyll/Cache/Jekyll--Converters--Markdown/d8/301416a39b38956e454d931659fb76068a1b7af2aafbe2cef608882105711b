@@ -1,4 +1,4 @@
-I"o+<div style="text-align:center;"><a href="https://developers.google.com/season-of-docs/docs/participants/project-cncf-shriti"><b>Project Proposal</b></a></div>
+I"�+<div style="text-align:center;"><a href="https://developers.google.com/season-of-docs/docs/participants/project-cncf-shriti"><b>Project Proposal</b></a></div>
 
 <p>This summer, I worked with the <a href="https://smi-spec.io/">CNCF - SMI community</a> and <a href="https://layer5.io/">Layer5</a> to develop a set of documentation and interactive tutorials to provide support and facilitate better understanding of the SMI project and service meshes, for both users and developers.</p>
 
@@ -32,7 +32,7 @@
 
 <p>Being able to run performance tests with consistent load generation is a basic requirement for running SMI tests so that the tests can be easily integrated with the pipelines of all the popular service meshes.</p>
 
-<p><img style="width:500px;height:auto;" src="/assets/smi-tests.png" /></p>
+<p>&lt;img style=”width:500px;height:auto;” src=”/portfolio/assets/smi-tests.png”</p>
 
 <h3 id="project-goals">Project Goals</h3>
 
