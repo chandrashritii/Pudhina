@@ -1,10 +1,12 @@
-I"�+<div style="text-align:center;"><a href="https://developers.google.com/season-of-docs/docs/participants/project-cncf-shriti"><b>Project Proposal</b></a></div>
+I"�1<div style="text-align:center;"><a href="https://developers.google.com/season-of-docs/docs/participants/project-cncf-shriti"><b>Project Proposal</b></a></div>
 
-<p>This summer, I worked with the <a href="https://smi-spec.io/">CNCF - SMI community</a> and <a href="https://layer5.io/">Layer5</a> to develop a set of documentation and interactive tutorials to provide support and facilitate better understanding of the SMI project and service meshes, for both users and developers.</p>
+<div style="text-align:center;color:gray;padding-top:2px;"> Mentors: Lee Calcote, Kush Trivedi </div>
+
+<p>This summer, I worked with the <a href="https://smi-spec.io/">CNCF - SMI community</a> and <a href="https://layer5.io/">Layer5</a> to develop a set of documentation and interactive tutorials under the Google Season of Docs (2020) program. The project aimed to provide support and facilitate better understanding of the SMI project and service meshes, for both users and developers.</p>
 
 <h3 id="smi-project">SMI Project</h3>
 
-<p>The SMI project is an extensible set of API abstractions built with the intent of establishing a standard set of specifications to enable interoperability and cover the most widely used features of service meshes. originally developed by Microsoft and donated to CNCF in April, 2020.</p>
+<p>The SMI project, originally developed by Microsoft and donated to CNCF in April 2020, is an extensible set of API abstractions built with the intent of establishing a standard set of specifications to enable interoperability and cover the most widely used features of service meshes.</p>
 
 <p>With a continuous influx of meshes in the <a href="https://layer5.io/landscape">service mesh landscape</a>, each with its own set of APIs, the standards are ever-changing and thus difficult to surmise and check for, both by developers and users. The base problem arising here is a dearth of resources that provides you with accessible methods of inspecting your service mesh. This is where the SMI specification comes in. It defines an industry standard to compare your service mesh against and analyze its shortcomings.</p>
 
@@ -21,7 +23,7 @@
 
 <p>The SMI specs have already been widely adopted but due to SMI being a relatively new project, it is largely devoid of both, user and dev documentation. My goal was to create comprehensive end-user documentation, including a complete set of User and Dev Guides, User Tutorials, and API documentation.</p>
 
-<p><a href="meshery.io">Meshery</a>, the service mesh management plane was chosen as the tool to showcase the SMI specifications because:</p>
+<p><a href="https://meshery.io/">Meshery</a>, the service mesh management plane (developed by <a href="https://layer5.io/">Layer5</a>) was chosen as the tool to showcase the SMI specifications because:</p>
 
 <ul>
   <li>It supports upto 12 service meshes</li>
@@ -30,9 +32,9 @@
   <li>Enables performance testing</li>
 </ul>
 
-<p>Being able to run performance tests with consistent load generation is a basic requirement for running SMI tests so that the tests can be easily integrated with the pipelines of all the popular service meshes.</p>
+<p>Being able to run performance tests with consistent load generation is a basic requirement for running SMI tests so that the tests can be easily integrated with the pipelines of any service mesh.</p>
 
-<p>&lt;img style=”width:500px;height:auto;” src=”/portfolio/assets/smi-tests.png”</p>
+<p><img style="width:500px;height:auto;" src="/portfolio/assets/smi-tests.png" /></p>
 
 <h3 id="project-goals">Project Goals</h3>
 
@@ -55,7 +57,7 @@
 
 <h3 id="community-bonding">Community Bonding</h3>
 
-<p>I took this time to understand the community and project goals better and established a regular channel of communication with my mentors. I also took this time to redefine my goals to stay in line with the specific aims of the SMI project and to maximize the reach and benefit to the end user. This was followed by setting a priority order for my finalized goals, after exhaustive discussions with my mentors.</p>
+<p>I took this time to understand the community and project goals better and established a regular channel of communication with my mentors. I also took this time to redefine my goals to stay in line with the specific aims of the SMI project and to maximize the reach and benefit to the end user. This was followed by setting a priority order for my finalized goals, after exhaustive discussions with my mentors. I followed through with these goals with weekly sync calls with my mentors, where we discussed the progress and extensibility of the project over the next four months.</p>
 
 <h3 id="development-phase">Development Phase</h3>
 
@@ -104,7 +106,7 @@ However, Meshery requires a docker-enabled system and inherently looks for a run
   <li><a href="https://github.com/layer5io/meshery/issues?q=+is%3Aissue+assignee%3Achandrashritii+">Issues opened by my mentors</a></li>
 </ol>
 
-<h4 id="meshery-documentation"><a href="https://meshery.layer5.io/docs"><strong>Meshery Documentation</strong></a></h4>
+<h4 id="meshery-documentation"><a href="http://docs.meshery.io/"><strong>Meshery Documentation</strong></a></h4>
 
 <ul>
   <li><a href="https://meshery.layer5.io/docs/installation/quick-start">Quickstart</a></li>
@@ -118,14 +120,19 @@ However, Meshery requires a docker-enabled system and inherently looks for a run
 
 <p><a href="https://www.katacoda.com/layer5">Katacoda</a> : The tutorials are currently displayed on Katacoda itself and are publicly available on Katacoda, as well as on the <a href="https://github.com/layer5io/service-mesh-labs">service mesh labs</a> repository.</p>
 
+<h3 id="learnings">Learnings</h3>
+
+<p>Over the last four months, I regularly engaged in the SMI and Meshery communities and attended weekly project meetings. This helped me learn a lot more about service meshes, their architecture, the SMI spec’s applications and how the APIs can be extended to fit any service mesh data plane and help test and analyze its abilities. Through the GSoD program, I had the opportunity of working in real time on an OpenSource project and was lucky enough to witness my contributions increase the project’s product value during the development phase itself.</p>
+
+<p>My project included making user tutorials which in addition to being a great learning directive, was also a lot of fun because it required taking creative decisions and working through the code to figure out the most efficient ways of working with the product and presenting it to the user. I was also allowed to work with CLI commands and I utilized this opportunity for improving upon my coding skills including Golang, Javascript and bash scripting.</p>
+
 <h3 id="future-implementations">Future Implementations</h3>
 
-<p>The SMI specification is still relatively new to the service mesh landscape and needs more user tutorials and guides to familiarize both developers and users with its workings. I will continue to remain active in the <a href="https://cloud-native.slack.com/?redir=%2Fmessages%2Fsmi">#smi</a> community after the conclusion of my GSoD project. The next steps for improvement will be:</p>
+<p>The SMI specification is still relatively new to the service mesh landscape and needs more user tutorials and guides to familiarize both developers and users with its workings. After the conclusion of my GSoD project, I will continue to remain active in the <a href="https://cloud-native.slack.com/?redir=%2Fmessages%2Fsmi">#smi</a> community and will also be working on creating API documentation for the Meshery project. The next steps for improvement to the SMI project should be:</p>
 
 <ul>
   <li>Creation of more user tutorials targeting SMI abilities and Conformance testing to make performance testing more accessible to users.</li>
-  <li>Improvement and Upkeep of the SMI documentation to include and promote the growing service mesh landscape</li>
+  <li>Improvement and Upkeep of the SMI documentation to include and promote the growing <a href="https://layer5.io/landscape">service mesh landscape</a></li>
   <li>Creating API documentation for the Meshery project</li>
 </ul>
-
 :ET

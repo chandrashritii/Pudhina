@@ -1,12 +1,4 @@
----
-layout: page
-title: About me
-subtitle: 
-sitemap:
-  priority: 0.9
----
-
-<img src="{{ '/assets/img/shriti.jpeg' | prepend: site.baseurl }}" id="about-img" style="border-radius: 50%;">
+I"Ì<p><img src="/portfolio/assets/img/shriti.jpeg" id="about-img" style="border-radius: 50%;" /></p>
 
 <div id="describe-text">
 	<p>Hi! I am Shriti Chandra, a sophomore at Manipal Institute of Technology, pursuing a Btech in Electronics and Communication Engineering. </p>
@@ -18,7 +10,7 @@ sitemap:
     <div id="button"></div>
   <div id="container">
       <div id="text">
-          <br>
+          <br />
           Made with ü§ç by the author in between her rambles. <br />
           Hosted on gh-pages
       </div>
@@ -30,4 +22,6 @@ sitemap:
   </div>
   </div>
   </section>
-  <link rel="stylesheet" href="./assets/css/blog.css">
+<link rel="stylesheet" href="./assets/css/blog.css" />
+
+:ET

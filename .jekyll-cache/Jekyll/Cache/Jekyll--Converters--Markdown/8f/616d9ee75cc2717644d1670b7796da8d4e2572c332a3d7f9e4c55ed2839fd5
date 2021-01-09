@@ -1,4 +1,4 @@
-I"~<div>
+I"b<div>
 
 
 <h4 class="post-teaser__month">
@@ -10,7 +10,7 @@
 <ul class="list-posts">
 
 <li class="post-teaser">
-<a href="/portfolio/general/2020/12/04/gsod-2020-with-cncf.html">
+<a href="/portfolio/blog/gsod-2020">
 <span class="post-teaser__title">GSoD 2020 with CNCF</span>
 <span class="post-teaser__date">04 December 2020</span>
 </a>
@@ -20,6 +20,6 @@
 
 </div>
 
-<link rel="stylesheet" href="/assets/css/blog.css" />
+<link rel="stylesheet" href="./assets/css/blog.css" />
 
 :ET

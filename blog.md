@@ -28,4 +28,3 @@ subtitle: Select ramblings
 {% endfor %}
 </div>
 
-<link rel="stylesheet" href="/assets/css/blog.css">
